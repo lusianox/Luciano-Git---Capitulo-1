@@ -1,0 +1,31 @@
+.HipervinculoTexto
+{
+    text-decoration-line: none;
+    color: white;
+}
+#nav{
+    border: 2px black solid;
+}
+.imgNavLinkIndex{
+    padding-left: 10px;
+    max-width: 60px; 
+}
+h1{
+    text-align: center;
+}
+body{
+    color: white;
+    background-image: url(../img/fondoincreibles.jpg);
+    background-size: 100%;
+}
+/*
+fieldset{
+    border: none;
+}
+*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+input[type=number] { -moz-appearance:textfield;}

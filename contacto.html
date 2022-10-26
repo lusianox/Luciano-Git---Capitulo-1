@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="./estilos/estilo.css">
+</head>
+<body>
+    <div id="nav">
+        <a href="index.html" class="HipervinculoTexto"><img src="./img/Batman.png" class="imgNavLinkIndex" alt=""></a>
+        <a href="index.html" class="HipervinculoTexto">Home</a>
+        <a href="./descripcion proyecto.html" class="HipervinculoTexto">Descripción del proyecto</a>
+        <a href="contacto.html" class="HipervinculoTexto">Contacto</a>
+    </div>
+
+    <form action="index.html" method="get">
+
+        <h1>Formulario de Contacto</h1>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="Nombre" id="">
+
+            <label for="Apellido">Apellido</label>
+            <input type="text" name="Apellido" id="">
+        </fieldset>
+        
+        <fieldset>
+            <legend>Datos residenciales</legend>
+            <label for="País">País:
+                <select name="pais" id="pais">
+                    <option value="AR" selected>Argentina</option>
+                    <option value="CH">Chile</option>
+                    <option value="BR">Brasil</option>
+                    <option value="UY">Uruguay</option>
+                    <option value="BO">Bolivia</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </label>
+            <label for="Calle">Calle:
+                <input type="text" name="calle" id="calle">
+            </label>
+            <label for="number">Número:</label>
+            <input type="number" name="number" id="number"> 
+        </fieldset>
+
+        <textarea name="comentarios" id="" cols="30" rows="10">Envíe un comentario</textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
